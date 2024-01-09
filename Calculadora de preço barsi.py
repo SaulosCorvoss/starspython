@@ -42,8 +42,8 @@ if result > price:
 else:
     print("O preço está muito caro para seus parâmetros,"
           " com um Dividend Yield esperado de {}% a/o {} \ntem um valor de {:.2f} e está custando {}, "
-          "\nporém com um {:2f}% de potencial de crescimento "
-          "de acordo com os dados fornecidos".format(dividendo, papel, result, price, earinig_yield))
+          "e esta {:.2f}% acima do preço justo \nporém com um {:.2f}% de potencial de crescimento "
+          "de acordo com os dados fornecidos".format(dividendo, papel, result, price, desconto, earinig_yield))
 
 comperer = str(input("deseja saber sobre outra ação?: "))
 if comperer.lower() == 'sim':
