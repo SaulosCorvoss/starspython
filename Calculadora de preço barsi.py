@@ -36,8 +36,8 @@ desconto = calcular_desconto(price, diferenca)
 if result > price:
     print("\nO valor de acordo com a porcentagem de {}%, que você nos informou,\n"
           "o preço justo para {} é de {:.2f} reais, e com valor de {}, \nisso significa que "
-          "o seu preço está {:.3f} R$ abaixo de seu valor. O desconto do ativo esta de {:.2f}%. 
-           E seu potencial de crecismento no ano é de {:.2f}%"
+          "o seu preço está {:.3f} R$ abaixo de seu valor. O desconto do ativo esta de {:.2f}%."
+          "E seu potencial de crecismento no ano é de {:.2f}%"
           .format(dividendo, papel, result, price, diferenca, desconto, earinig_yield))
 else:
     print("O preço está muito caro para seus parâmetros,"
